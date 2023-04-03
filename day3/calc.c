@@ -22,19 +22,20 @@ int main()
 
 
 
+
     switch (sign)
     {
         case '+': printf("Sum: %d",a+b);
                 break;
         
-        case '-': printf("Sub: %d", a-b);
-        break;
+            case '-': printf("Sub: %d", a-b);
+                 break;
 
-   case '*': printf("Sub: %d", a*b);
-        break;
+                case '*': printf("Sub: %d", a*b);
+                break;
 
- case '/': printf("Sub: %d", a/b);
-        break;
+                     case '/': printf("Sub: %d", a/b);
+                break;
 
 default:
 printf("404 Error");
