@@ -1,5 +1,22 @@
 #include <stdio.h>
-#include <math.h>
+
+double power(double base, double exponent) {
+    double result = 1.0;
+    int i;
+    for (i = 1; i <= exponent; i++) {
+        result *= base;
+    }
+    return result;
+}
+
+double square_root(double num) {
+    double result = num;
+    double eps = 1e-15;
+    while ((result - num / result) > eps) {
+        result = (result + num / result) / 2;
+    }
+    return result;
+}
 
 int main() {
     char operator;
@@ -44,7 +61,7 @@ int main() {
         case '^':
             printf("Enter two numbers separated by space: ");
             scanf("%lf %lf", &num1, &num2);
-            result = pow(num1, num2);
+            result = power(num1, num2);
             printf("%.2lf ^ %.2lf = %.2lf", num1, num2, result);
             break;
 
@@ -55,15 +72,8 @@ int main() {
             if (num1 < 0) {
                 printf("Error: Square root of a negative number");
             } else {
-                result = sqrt(num1);
+                result = square_root(num1);
                 printf("sqrt(%.2lf) = %.2lf", num1, result);
             }
             break;
-
-        default:
-            printf("Error: Invalid operator");
-    }
-
-    return 0;
-}
 
