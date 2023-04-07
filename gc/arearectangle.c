@@ -2,15 +2,15 @@
 void main() {
 
     
-int side1, side2;
+float side1, side2;
 printf("Enter Length...");
-scanf("%d", &side1);
+scanf("%f", &side1);
 
 printf("Enter Width... ");
-scanf("%d", &side2);
+scanf("%f", &side2);
 
 
-printf("area is : %d unit^2", side1 * side2);
+printf("Area is : %d unit^2", side1 * side2);
 
         
 

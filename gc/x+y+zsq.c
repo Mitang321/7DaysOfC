@@ -3,17 +3,17 @@ void main() {
 
     
 int x,y,z;
-printf("enter x");
+printf("Enter x");
 scanf("%d", &x);
 
-printf("enter y");
+printf("Enter y");
 scanf("%d", &y);
 
-printf("enter z");
+printf("Enter z");
 scanf("%d", &z);
 
 int square = (x+y+z) * (x+y+z);
-printf("sum is : %d", square);
+printf("Answer is : %d", square);
          
 
 }

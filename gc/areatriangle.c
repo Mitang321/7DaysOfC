@@ -10,7 +10,7 @@ printf("Enter Height... ");
 scanf("%f", &height);
 
 
-printf("area is : %f unit^2",(base*height)/2);
+printf("Area is : %f unit^2",(base*height)/2);
 
         
 

@@ -3,10 +3,10 @@ void main() {
 
     
 float side;
-printf("enter side");
+printf("Enter Side");
 scanf("%f", &side);
 
-printf("area is : %f side^2",side * side);
+printf("Area is : %f side^2",side * side);
 
         
 

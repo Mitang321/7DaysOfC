@@ -3,10 +3,10 @@ void main() {
 
     
 int x,y;
-printf("enter x");
+printf("Enter Valuse Of x");
 scanf("%d", &x);
 
-printf("enter y");
+printf("Enter Value Of y");
 scanf("%d", &y);
 
 int square = (x-y) * (x-y);

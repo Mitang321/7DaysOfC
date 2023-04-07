@@ -3,14 +3,14 @@ void main() {
 
     
 int x,y;
-printf("enter x");
+printf("Enter X");
 scanf("%d", &x);
 
-printf("enter y");
+printf("Enter Y");
 scanf("%d", &y);
 
 int square = (x+y) * (x+y);
-printf("sum is : %d", square);
+printf("Sum is : %d", square);
          
 
 }

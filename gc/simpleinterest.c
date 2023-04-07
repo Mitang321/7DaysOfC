@@ -8,7 +8,7 @@ printf("Enter Amoumt: ");
 scanf("%f", &amount);
 
 
-printf("Enter time(in Years): ");
+printf("Enter Time(in Years): ");
 scanf("%f", &time);
 
 printf("Enter Rate: ");

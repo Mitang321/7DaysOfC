@@ -13,7 +13,7 @@ printf("Enter z");
 scanf("%d", &y);
 
 int square = (x+y+z) * (x+y+z) * (x+y+z)  ;
-printf("sum is : %d", square);
+printf("Answer is : %d", square);
          
 
 }

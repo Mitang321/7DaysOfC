@@ -3,10 +3,10 @@ void main() {
 
     
 float radius;
-printf("enter radius");
+printf("Enter Radius");
 scanf("%f", &radius);
 
-printf("area is : %f unit^2", 3.14 * radius * radius);
+printf("Area is : %f unit^2", 3.14 * radius * radius);
 
         
 
