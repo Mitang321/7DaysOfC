@@ -5,7 +5,7 @@ int main(){
     // int a = 56;
     // int* ptra = &a;
     // printf("Value Of A is %d\n", *ptra);
-    //     printf("Address Of A is %p\n", &ptra);
+    // printf("Address Of A is %p\n", &ptra);
 
 int i = 5;
 int *ptr = &i;

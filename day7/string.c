@@ -2,11 +2,13 @@
 void printString(char arr[]);
 int main()
 {
-char str[50];
-fgets(str, 50, stdin);
-puts(str);
-// scanf("%s",name);
-printf("Your Full Name Is %s",str);
+char firstname[] = "Mitang";
+char lastname[] = "Hindocha";
+
+printString(firstname);
+printString(lastname);
+
+
 return 0;
 
 }
